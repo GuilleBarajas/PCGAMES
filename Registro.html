@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Bienvenido</a>
+      </div>
+      <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Pagina Principal</a></li>
+          <li><a href="Inicio_de_sesion.html">Inicia Sesion</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Registrate es gratis :D!!</h1>
+        <p>Introduce los siguientes datos:</p>
+      </div>
+    </div>
+    <!-- capturadores de datos -->
+    <div class="container">
+      <form class="form-group">
+        <label for="username">Nombre de Usuario:</label>
+        <input type="text" class="form-control" name="username" placeholder="Nombre de Usuario">
+        <p></p>
+        <label for="useremail">Correo Electronico:</label>
+        <input type="email" class="form-control" name="useremail" placeholder="Correo Electronico">
+        <p></p>
+        <label for="userpass">Contraseña:</label>
+        <input type="password" class="form-control" name="userpass" placeholder="Contraseña">
+        <div class="checkbox">
+          <label for="usercheck">
+            <input type="checkbox" name="usercheck" value="">
+            Deseo recibir notificaciones al correo electronico</label>
+        </div>
+        <button type="submit" class="btn btn-default" name="button">Registrate!</button>
+      </form>
+    </div>
